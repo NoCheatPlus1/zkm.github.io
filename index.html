@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bio site made by ZKM</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body, html {
+      height: 100%;
+      overflow: hidden;
+    }
+
+    body {
+      background: url("bg.gif") no-repeat center center fixed;
+      background-size: cover;
+    }
+
+    .overlay {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      backdrop-filter: blur(6px) brightness(0.9);
+      background: rgba(255, 255, 255, 0.2);
+      padding: 1rem;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.3);
+      backdrop-filter: blur(12px);
+      border-radius: 20px;
+      padding: 2rem;
+      max-width: 500px;
+      width: 100%;
+      text-align: center;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+      color: #333;
+    }
+
+    .card h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .card p {
+      font-size: 1rem;
+      line-height: 1.6;
+      margin-bottom: 1.5rem;
+    }
+
+    .links a {
+      display: inline-block;
+      margin: 0.5rem;
+      padding: 0.6rem 1.2rem;
+      border-radius: 10px;
+      background: rgba(255,255,255,0.6);
+      backdrop-filter: blur(5px);
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+      transition: 0.3s ease;
+      font-size: 0.95rem;
+    }
+
+    .links a:hover {
+      background: rgba(255,255,255,0.9);
+    }
+
+    @media (max-width: 600px) {
+      .card {
+        padding: 1.5rem;
+      }
+      .card h1 {
+        font-size: 1.6rem;
+      }
+      .card p {
+        font-size: 0.9rem;
+      }
+      .links a {
+        padding: 0.5rem 1rem;
+        font-size: 0.85rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <div class="card">
+      <h1>ZKM/h1>
+      <p>
+        Bio site made by ZKM
+      </p>
+      <div class="links">
+        <a href="https://discord.gg/2qpKRqY7da" target="_blank">Arcuno</a>
+        <a href="https://voilclient.lol" target="_blank">Voil Client</a>
+        <a href="https://pastebin.com/raw/21NcBjGv" target="_blank">Discord</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
